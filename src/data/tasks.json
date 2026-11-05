@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Fix ProductGrid CSS styling",
+      "description": "Ensure grid-cols-3 is applied on the parent container instead of individual card components.",
+      "status": "completed",
+      "priority": "high",
+      "dueDate": "2026-11-05"
+    },
+    {
+      "id": "2",
+      "title": "Verify Tenda Wi-Fi module settings",
+      "description": "Check /etc/modprobe.d/aic8800.conf for pwr_ctrl=0 to prevent bandwidth throttling.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-11-06"
+    },
+    {
+      "id": "3",
+      "title": "Fetch tasks via Next.js App Router",
+      "description": "Create an async page component in src/app/tasks/page.jsx to render task cards.",
+      "status": "pending",
+      "priority": "medium",
+      "dueDate": "2026-11-07"
+    },
+    {
+      "id": "4",
+      "title": "Add TaskCard DaisyUI component",
+      "description": "Build a reusable card component displaying task status badges and priority tags.",
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2026-11-08"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Wireless Noise-Canceling Headphones",
+      "description": "Over-ear active noise-canceling headphones with 30-hour battery life.",
+      "price": 199.99
+    }
+  ]
+}
